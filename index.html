@@ -71,8 +71,8 @@
     <div class="modal-overlay">
         <div class="modal">
             <div id="form">
-                <h2>Nova Transacao</h2>
-                <form action="">
+                <h2>Nova Transacao</h2>              
+                <form action="" onsubmit="Form.submit(event)">
                     <div class="input-group">
                         <label
                         class="sr-only" 
@@ -108,7 +108,7 @@
                     </div>
 
                     <div class="input-group actions">
-                         <a href="#" class="button cancel">Cancelar</a>
+                         <a href="" onclick="Modal.close()" class="button cancel">Cancelar</a>
                          <button>Salvar</button>
                      </div>
                    
